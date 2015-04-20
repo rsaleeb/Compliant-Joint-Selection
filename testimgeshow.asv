@@ -1,0 +1,9 @@
+moon=imread('LSN.tif');
+moon2=imread('LCF.tif');
+subimage(moon)
+subimage(moon2)
+
+[
+[X2,map2] = imread('forest.tif');
+subplot(1,2,1), subimage(moon,map)
+subplot(1,2,2), subimage(moon2,map2)
